@@ -1,0 +1,18 @@
+.login-form,
+.signup-form,
+.forgot-password-form,
+.reset-password-form,
+.personal-data-form,
+.change-password-form,
+.delete-account-form {
+  @include form-layout-flex;
+}
+
+.signup-form {
+  &__label {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+}

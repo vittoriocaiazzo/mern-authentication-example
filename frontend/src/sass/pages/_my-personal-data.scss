@@ -1,0 +1,48 @@
+.my-personal-data {
+  display: flex;
+  flex-wrap: wrap;
+
+  flex: 70%;
+  padding: 2rem;
+
+  animation: fadeIn 1s;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+
+  flex: 100%;
+}
+
+.profile-picture {
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 10rem;
+  background-color: rgb(214, 214, 214);
+  margin-bottom: 2rem;
+}
+
+.personal-data-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 2rem 4rem;
+  border-right: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.change-password-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 2rem 4rem;
+}

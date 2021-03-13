@@ -1,0 +1,68 @@
+html {
+  font-size: 62.5%; /* 1rem = 10px, 10px/16px = 62.5% */
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  color: $color-text;
+  background-color: $background-color;
+}
+
+.home {
+  &__status {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 1rem;
+  }
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 6rem;
+
+  &--with-sub {
+    margin-bottom: 1rem;
+  }
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 6rem;
+}
+
+.status {
+  font-size: 1.5rem;
+  height: 2rem;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+
+.error-status {
+  color: rgb(253, 47, 47);
+  font-size: 1.5rem;
+  height: 2rem;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+
+.success-status {
+  color: $color-text;
+  font-size: 1.5rem;
+  height: 2rem;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+
+.signup-status {
+  font-size: 1.5rem;
+  height: 2rem;
+  font-weight: 700;
+}

@@ -1,0 +1,37 @@
+:root {
+  --color-primary: rgb(255, 255, 255);
+  --background-color: rgb(24, 61, 95);
+
+  --color-menu: rgb(255, 255, 255);
+  --backgroundcolor-menu: transparent;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1rem = 10px, 10px/16px = 62.5% */
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  color: var(--color-primary);
+  background: var(--background-color);
+
+  min-height: 100vh;
+}

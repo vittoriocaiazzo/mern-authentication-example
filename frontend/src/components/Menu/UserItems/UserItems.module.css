@@ -1,0 +1,14 @@
+.UserItems {
+  display: flex;
+  justify-content: flex-start;
+
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  border: 1px solid white;
+}
+
+.LogIn,
+.SignUp {
+}

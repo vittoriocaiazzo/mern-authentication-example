@@ -1,0 +1,25 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+.home,
+.login,
+.signup,
+.forgot-password,
+.signup-confirmation,
+.reset-password,
+.delete-account {
+  @include page-layout-flex;
+}
+
+.my-profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex: 2;
+
+  animation: fadeIn 1s;
+}

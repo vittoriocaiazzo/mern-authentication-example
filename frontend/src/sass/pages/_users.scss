@@ -1,0 +1,49 @@
+.users {
+  flex: 2;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10rem;
+
+  animation: fadeIn 1s;
+}
+
+.user {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 2rem;
+  height: fit-content;
+  width: 35rem;
+  overflow: auto;
+  border-radius: 10px;
+
+  background-color: rgba(0, 0, 0, 0.1);
+
+  &__section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 3rem;
+
+    &:not(:last-of-type) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__label {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+
+  &__data {
+    font-size: 2rem;
+    font-weight: 700;
+
+    &--email {
+      margin-bottom: 0.3rem;
+    }
+  }
+}
